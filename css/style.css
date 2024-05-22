@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center ;
+    padding: 2rem;
+    min-height: 100vh;
+    color: #f7f3f3;
+    background: linear-gradient(#cd5c5c 0%, #b22222 100% )
+}
+h2{
+    padding: 1rem;
+}
+
+form{
+    border: 2px solid #FAEBD7;
+    border-radius: 1rem;
+    padding: 1.5rem 0 ;
+    background: linear-gradient ;
+    box-shadow:4px 4px 8px 1px #aaa1a1;
+}
+
+#multiplication-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    color: #333;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    margin: 0 1rem;
+    
+
+}
+.form-control label{
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.form-control input{
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+    text-align: center;
+}
+
+#multiplication-form  #btn{
+    max-height: 50px;
+    padding: 0.6rem 0.4rem;
+    width: 200px;
+    color: #f7f3f3;
+    background-color: #333;
+    border: 1px solid #3b3838 ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#multiplication-operation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color:#f7f3f3;
+    color:#333 ;
+    border-radius: 1.5rem;
+    min-width: 20rem;
+
+}
+
+#multiplication-operation .row{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #6d6d6d;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#multiplication-operation .row:last-child{
+    border: 1px solid #6d6d6d;
+
+}
+
+#multiplication-operation .result{
+    padding-left: 0.4rem;
+}
