@@ -1,2 +1,2 @@
 # Multiplication Table 
-Multiplication table created with pure javaScript, Html and css. I created this project to review DOM.
+Multiplication table created with pure javaScript, Html and CSS. I created this project to review DOM.
